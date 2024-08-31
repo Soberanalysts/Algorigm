@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int countWorm = 0;			//웜에 걸리는 컴퓨터 수
+int countWorm = 0;					//웜에 걸리는 컴퓨터 수
 const int n = 100;					//최대 컴퓨터 수
 vector<int> adj[n];					//쌍을 이룰 컴퓨터 번호
 bool visited[n] = { 0 };
@@ -23,7 +23,7 @@ void dfs(int u){
 	//		dfs(v);
 	//	}
 	//}
-	//cout << u << "로부터 시작된 함수가 종료되었습니다.\n";
+
 	return;
 }
 

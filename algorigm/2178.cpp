@@ -9,39 +9,48 @@ int Maze[MAX][MAX] = { 0 };                   //미로
 int dy[4] = { -1, 0, 1, 0 };                //상하좌우 이동
 int dx[4] = { 0, 1, 0, -1 };
 
-void bfs(int here) {
-    queue<int> q;
-    visited[here] = 1;
-    q.push(here);
+int x, y, nx, ny;
+
+void bfs(int n, int m) {
+    queue<pair<int, int>> q;
+    visited[0][0] = 1;
+    q.push({ 0,0 });
     while (q.size()) {
-        int here = q.front(); q.pop();
-        for (int there : adj[here]) {
-            if (visited[there]) continue;
-            visited[there] = 1;
-            q.push(there);
-            parents[there] = here;
+        y = q.front().first; 
+        x = q.front().second;
+        q.pop();
+        for (int i = 0; i < 4; i++)
+        {
+            int ny = y + dy[i];
+            int nx = x + dx[i];
+            if (ny < 0 || ny >= n || nx < 0 || nx >= m|| Maze[ny][nx]==0) continue;
+            if (visited[ny][nx] != 0) continue;
+
+            visited[ny][nx] = visited[y][x] + 1;
+            q.push({ ny, nx });
         }
+
     }
 }
 
 int main() {
-    int root = 1, N;				//루트, 노드
+    int  N, M;				        //미로 세로길이, 가로길이
 
-    int leftChild, rightChild;
+    string input;                   //미로 입력값
 
+    cin >> N >> M;
 
-    cin >> N;
-
-    for (int i = 0; i < N - 1; i++) {
-        cin >> leftChild >> rightChild;
-        adj[leftChild].push_back(rightChild);
-        adj[rightChild].push_back(leftChild);
-    }
-    bfs(root);
-    for (int i = 2; i <= N; i++)
+    for (int i = 0; i < N; i++)     //미로 입력
     {
-        cout << parents[i] << '\n';
+        cin >> input;
+        for (int j = 0; j < M; j++)
+        {
+            Maze[i][j] = input[j] - '0';
+        }
+        input = "";
     }
+    bfs(N,M);
+    cout << visited[N - 1][M - 1];
 }
 //
 //#include<bits/stdc++.h>

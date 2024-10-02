@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int precolor, ny, nx, x, y,n,m;
+    int precolor, ny, nx,n,m;
     int dy[4] = { -1, 0, 1, 0 };
     int dx[4] = { 0, 1, 0, -1 };
 

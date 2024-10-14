@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0110-balanced-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0543-diameter-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Soberanalysts/Algorigm/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0110-balanced-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0110-balanced-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/Soberanalysts/Algorigm/tree/master/0543-diameter-of-binary-tree) |
 ## Linked List
 |  |
 | ------- |

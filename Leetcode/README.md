@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/Soberanalysts/Algorigm/tree/master/0242-valid-anagram) |
+| [1894-merge-strings-alternately](https://github.com/Soberanalysts/Algorigm/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Soberanalysts/Algorigm/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/Soberanalysts/Algorigm/tree/master/0908-middle-of-the-linked-list) |
+| [1894-merge-strings-alternately](https://github.com/Soberanalysts/Algorigm/tree/master/1894-merge-strings-alternately) |
 ## Interactive
 |  |
 | ------- |
